@@ -35,3 +35,48 @@ pip install psutil requests
 git clone https://github.com/6lackRaven/GeoSnitch.git
 cd GeoSnitch
 chmod +x geosnitch.sh
+
+---
+
+## 🚀 Usage
+
+./geosnitch.sh
+
+You'll be prompted to select your payload, and the tool will:
+
+Start Seeker
+
+Launch Cloudflare tunnel
+
+Display your phishing link (e.g. https://xyz.trycloudflare.com)
+
+Wait for a target to visit the page
+
+Log their location data
+
+
+> Logs and captured info are stored in the seeker/db folder.
+
+
+--
+
+## ⚠️ Disclaimer
+
+> This tool is intended for educational and ethical testing purposes only.
+Unauthorized tracking or phishing activity is illegal and punishable under law.
+The author is not responsible for misuse of this tool.
+
+
+
+
+---
+
+💻 Author
+
+👨‍💻 6lackRaven — GitHub
+
+
+
+---
+
+🌟 Star the repo if you found it useful!
